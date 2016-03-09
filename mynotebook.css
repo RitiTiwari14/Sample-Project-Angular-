@@ -1,0 +1,74 @@
+
+body{
+	margin: 0px; padding: 0px;
+	background-color: grey;
+}
+header div{
+	background-color: #0d0e36;
+	font-size: 15px;
+	height: 50px;
+	line-height: 50px;
+	color: #fff;
+	text-align: center;
+}
+.masterContainer{
+	width: 60%;
+	margin: 0px auto;
+}
+.active{
+	background-color: #cdcdcd;
+}
+.navbar  ul{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	height: 50px;
+    overflow: auto;
+}
+.navbar  ul li{
+	float: left;
+	width: 20%;
+	text-align: center;
+	background-color: #cdcdcd;
+	line-height: 50px;
+}
+.navbar  ul li a{
+	display: block;
+	height: 50px;
+}
+.navbar ul li a.active{
+	background-color: #406c68;
+	color: #fff;
+}
+
+.navbar ul li a{
+	text-transform: capitalize;
+}
+
+.main{
+	clear: both;
+	background-color: green;
+	text-align: center;
+	padding: 20px 0px;
+
+}
+.EditPage textarea{
+	resize: none;
+	width: 90%;
+	height: 400px;
+}
+.buttonContainer{
+	text-align: left;
+	margin: 10px 40px;
+
+}
+.buttonContainer{
+	margin-left:20px;
+	font-weight: bold;
+}
+
+
+footer div{
+	margin-top: 20px;
+	font-style: italic;
+}

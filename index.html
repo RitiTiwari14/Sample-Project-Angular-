@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Note Book</title>
+</head>
+<body ng-app="myNotebook">
+ 	<div class="masterContainer" ng-controller="notebookCntrlr">
+		  <header>
+		   	<div>My Note Book</div>
+		  </header>
+
+		  <nav id="nav" class="navbar">
+		    <ul>
+			    <div page-menu ></div>
+			 </ul>
+		  </nav>
+
+		  <section class="main">
+		    <div class="buttonContainer">
+		    	<button id="addPage" append-pages ng-click="addpage()" >Add a page</button> <span></span>
+		    </div>
+		    <div class="EditPage">
+		    	<textarea id="editArea" ng-model ="pageText" ng-keyup="savePagetext()"></textarea>
+		    </div>
+
+		  </section>
+
+		  <footer>
+		   	<div>Some text</div>
+		  </footer>
+    </div>
+
+    <link rel="stylesheet" type="text/css" href="mynotebook.css"></link>
+    <script src="Library_Angular.js"></script>
+    <script src="code_project.js"></script>
+
+</body>
+</html>
